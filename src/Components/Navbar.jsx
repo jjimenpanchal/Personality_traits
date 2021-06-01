@@ -10,7 +10,7 @@ const Navbar = () => {
 						<nav className="navbar navbar-expand-lg navbar-light bg-light">
 							<div className="container-fluid">
 								<NavLink className="navbar-brand" to="/">
-									Personality
+									My Personality
 								</NavLink>
 								<button
 									className="navbar-toggler"
@@ -42,10 +42,11 @@ const Navbar = () => {
 										<li className="nav-item">
 											<NavLink
 												activeClassName="menu_active"
+												
 												className="nav-link"
 												to="/test"
 											>
-												Test
+												Features
 											</NavLink>
 										</li>
 
@@ -75,6 +76,7 @@ const Navbar = () => {
 					</div>
 				</div>
 			</div>
+		
 		</>
 	);
 };

@@ -7,7 +7,7 @@ const Footer = () => {
 		<>
 			<footer className="w-100 bg-light text-center footer">
 				<p>
-					© {date.getFullYear()} Personality. All Rights Reserved | Terms and
+					© {date.getFullYear()} My Personality. All Rights Reserved | Terms and
 					Conditions
 				</p>
 			</footer>

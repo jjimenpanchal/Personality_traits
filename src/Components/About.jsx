@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../src/images/about.jpg";
+import web from "../../src/images/about.jpg";
 // import { NavLink } from "react-router-dom";
 import Commom from "./Commom";
 

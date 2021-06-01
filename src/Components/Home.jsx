@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../src/images/home.jpg";
+import web from "../../src/images/home.jpg";
 // import { NavLink } from "react-router-dom";
 import Commom from "./Commom";
 
@@ -11,6 +11,7 @@ const Home = () => {
 				imgsrc={web}
 				visit="/test"
 				btname="Get Started"
+				msg="End destination for all about personlaity"
 			/>
 		</>
 	);

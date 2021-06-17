@@ -2,6 +2,15 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 // import './index.css'
 function FeatureCard(props) {
+  const temp =
+    props.Goto === "Mcqtest.html" ? (
+      <link rel="html" href="%PUBLIC_URL%/Mcqtest.html" />
+    ) : (
+      <NavLink className="button" to={props.Goto}>
+        {props.ButtonName}
+      </NavLink>
+    );
+
   return (
     <div className="cards">
       <div className="card">
@@ -16,9 +25,7 @@ function FeatureCard(props) {
           </span>
           <p>{props.content}</p>
           <br></br>
-          <NavLink className="button" to={props.Goto}>
-            {props.ButtonName}
-          </NavLink>
+          {temp}
         </div>
       </div>
     </div>

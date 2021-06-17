@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../../src/images/about.jpg";
+// import web from "../../src/images/about.jpg";
 // import { NavLink } from "react-router-dom";
 import Commom from "./Commom";
 
@@ -8,7 +8,7 @@ const About = () => {
 		<>
 			<Commom
 				name="Welcome to About page"
-				imgsrc={web}
+				// imgsrc={web}
 				visit="/contact"
 				btname="Contact Now"
 			/>
